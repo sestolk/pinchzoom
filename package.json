@@ -1,26 +1,29 @@
 {
-  "name": "pinchzoom",
-  "version": "0.0.2",
-  "description": "PinchZoom.js is a Javascript library providing multi touch gestures for zooming and dragging on any DOM element.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node_modules/karma/bin/karma start karma.conf.js --single-run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.u-lab.nl:Sven/eloquent-javascript.git"
-  },
-  "author": "Sven Stolk",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "copy": "~0.1.3"
-  },
-  "private": true,
-  "devDependencies": {
-    "jasmine-core": "^2.4.1",
-    "karma": "^0.13.15",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-html2js-preprocessor": "^1.0.0",
-    "karma-jasmine": "^0.3.6"
-  }
+	"name": "pinchzoom",
+	"version": "1.0.0",
+	"description": "PinchZoom.js is a Javascript library providing multi touch gestures for zooming and dragging on any DOM element.",
+	"main": "src/pinchzoom.js",
+	"scripts": {
+		"test": "node_modules/karma/bin/karma start karma.conf.js --single-run"
+	},
+	"authors": [
+		{
+			"name": "Manuel Stofer",
+			"email": "manuel@smallpdf.com"
+		},
+		{
+			"name": "Sven Stolk",
+			"email": "sven@u-lab.nl"
+		}
+	],
+	"license": "MIT",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"jasmine-core": "^2.4.1",
+		"karma": "^0.13.15",
+		"karma-chrome-launcher": "^0.2.2",
+		"karma-html2js-preprocessor": "^1.0.0",
+		"karma-jasmine": "^0.3.6"
+	}
 }
